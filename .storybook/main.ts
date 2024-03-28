@@ -9,6 +9,7 @@ const config: StorybookConfig = {
     "@storybook/addon-essentials",
     "@chromatic-com/storybook",
     "@storybook/addon-interactions",
+    "@storybook/preset-typescript",
   ],
   framework: {
     name: "@storybook/react-webpack5",
@@ -18,5 +19,6 @@ const config: StorybookConfig = {
     autodocs: "tag",
   },
   staticDirs: ["..\\public"],
+  
 };
 export default config;
